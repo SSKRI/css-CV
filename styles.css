@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+.info {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* .info > .info-group {
+  width: 50%;
+} */
+
+.info-group:nth-child(2) {
+  margin-left: 230px;
+  text-align: right;
+}
+
+.info-group h1 {
+  margin-top: 0;
+}
+
+.info-text {
+  text-align: justify;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-green p:nth-child(2) {
+  margin-bottom: 0;
+  /* color: red; */
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-yellow-green {
+  background: #f8f8a2;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  /* background: red; */
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list {
+  margin: 0 0 16px;
+  padding: 0 20px;
+  /* list-style: none; */
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+
+.row {
+  display: flex;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  color: #fff;
+  padding: 15px 20px;
+  background: #111;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* .list li {  [настройка li]
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px; [сдвигает вниз границу]
+} */
+/* .container {  [чтобы по бокам было место]
+  max-width: 75%;
+  margin: auto;
+}
+
+.skills {
+  background: pink;
+}
+
+.box-model {    [проверка работы ширины дочерних дивов, (их настройка ниже)]
+  width: 75%;
+}
+.box-model div {
+  background: #000;
+  height: 200px;
+  width: 25%;
+  float: left;
+  border: 4px solid red;
+  box-sizing: border-box;
+  margin: 4px;  [проверка что не входят все 4 дива по ширине если есть margin]
+} */
+
+/* .position {              [position свойство]
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 120px;
+}
+
+.box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%; 
+  width: 100%;
+  height: 50px;
+  background: blueviolet;
+} */
